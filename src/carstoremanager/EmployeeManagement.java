@@ -346,15 +346,15 @@ public class EmployeeManagement extends javax.swing.JFrame {
         getContentPane().add(jScrollPane1);
         jScrollPane1.setBounds(20, 470, 527, 120);
         getContentPane().add(txtMaNV);
-        txtMaNV.setBounds(113, 74, 87, 22);
+        txtMaNV.setBounds(110, 70, 210, 30);
         getContentPane().add(txtHoTen);
-        txtHoTen.setBounds(113, 114, 213, 30);
+        txtHoTen.setBounds(110, 110, 213, 30);
         getContentPane().add(txtTuoi);
-        txtTuoi.setBounds(113, 154, 87, 22);
+        txtTuoi.setBounds(110, 150, 210, 30);
         getContentPane().add(txtEmail);
-        txtEmail.setBounds(113, 188, 213, 30);
+        txtEmail.setBounds(110, 190, 210, 30);
         getContentPane().add(txtLuong);
-        txtLuong.setBounds(113, 222, 71, 22);
+        txtLuong.setBounds(110, 230, 210, 30);
 
         btnFist.setBackground(new java.awt.Color(51, 102, 255));
         btnFist.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -502,7 +502,7 @@ public class EmployeeManagement extends javax.swing.JFrame {
         jLabel7.setForeground(new java.awt.Color(51, 153, 255));
         jLabel7.setText("Giới Tính");
         getContentPane().add(jLabel7);
-        jLabel7.setBounds(0, 260, 80, 16);
+        jLabel7.setBounds(10, 290, 80, 16);
 
         buttonGroup1.add(jRadioButton1);
         jRadioButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -513,13 +513,13 @@ public class EmployeeManagement extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jRadioButton1);
-        jRadioButton1.setBounds(100, 260, 98, 25);
+        jRadioButton1.setBounds(120, 280, 98, 25);
 
         buttonGroup1.add(jRadioButton2);
         jRadioButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jRadioButton2.setText("Nữ");
         getContentPane().add(jRadioButton2);
-        jRadioButton2.setBounds(220, 260, 98, 25);
+        jRadioButton2.setBounds(220, 280, 98, 25);
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/carstoremanager/winner-x-moi-9689-1598190940.png"))); // NOI18N
         getContentPane().add(jLabel8);
